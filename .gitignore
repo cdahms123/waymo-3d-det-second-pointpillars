@@ -1,0 +1,10 @@
+# .gitignore
+
+# PyCharm project files
+.idea
+
+scratchpad.py
+
+
+
+
