@@ -61,6 +61,8 @@ def main():
         # lidar points is n rows x 3 cols, to use with Plotly, need to change to 3 rows x n cols
         lidarPoints = lidarPoints.transpose()
 
+        ### 3D visualization ######################################################
+
         s3dPoints = PlotlyGraphObjects.Scatter3d(x=lidarPoints[0], y=lidarPoints[1], z=lidarPoints[2], mode='markers', marker={'size': 1})
 
         # 3 separate lists for the x, y, and z components of each line
